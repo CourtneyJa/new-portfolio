@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <header class="top">
+            <div class="top-stuff">
+                <h1>Courtney Jackson</h1>
+                <p>Web Developer/ Lambda School Student</p>
+                <nav id="links">
+                    <a class="fun" href = "index.html">Home</a>
+                    <a class="fun" href = "resume.html">Resume</a>
+                    <a class="fun" href = "contact.html">Contact</a>
+                </nav>
+            </div>            
+        </header>
+
+        <section class = "description">
+            <h2>Lambda Projects</h2>
+            <p>Here is a small sampling of projects that I have completed so far in Lambda School. These projects span the curriculum from learning HTML and CSS (including Flexbox and Preprocessors) to now learning React. I have learned how to use axios to call API data, style using Bootstrap or Reactstrap and so much more! As my learning changes so will this page!</p>
+        </section>
+
+        
+        <div class="slideshow-container">
+        
+            <div class="mySlides fade">
+                <div class="title">Great Idea - CSS</div>
+                <img src="/img/greatidea1.jpg" style="width:100%">
+                <div class="text">One of my first projects, I had to move elements around to match a design file. <a href= "https://github.com/CourtneyJa/User-Interface/commit/e56d4edfde43e83d045fe628180ef34f0adffdc4">Click here</a> to view the code</div>
+            </div>
+        
+            <div class="mySlides fade">
+                <div class="title">Zim Resume - LESS</div>
+                <img src="/img/zimresume.JPG" style="width:100%">
+                <div class="text">This project required creating our own resume and designing it using LESS.<a href= "https://courtneyja.github.io/Preprocessor-I/">Click here</a> to view the site.</div>
+            </div>
+        
+            <div class="mySlides fade">
+                <div class="title">Fun Bus - DOM II</div>
+                <a href = "https://cj-funbus-dom2.netlify.com"><img src="/img/dom2fun.JPG" style="width:100%"></a>
+                <div class="text">In this project, I learned how to manipulate elements using the DOM. Click the image to view the site. <a href= "https://github.com/CourtneyJa/DOM-II/pull/1">Click here</a> to view the code.</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="title">Git Card - API</div>
+                <a href = "https://cj-github-usercard.netlify.com"><img src="/img/githubuser.JPG" style="width:100%"></a>
+                <div class="text">For this project, an axios call was made for data from Github. Click the image to view the site. <a href= "https://github.com/CourtneyJa/github-usercard/pull/1">Click here</a> to view the code.</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="title">Calculator - API React</div>
+                <a href = "https://cj-lambda-calc.netlify.com"><img src="/img/calculator.JPG" style="width:100%"></a>
+                <div class="text">This was fun/frustrating! Working in React and style done in React with Bootstrap. Note: it is not functional. Click the image to view the site. <a href= "https://github.com/CourtneyJa/lambda-calculator1/pull/2">Click here</a> to view the code.</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="title">NASA POD - API React</div>
+                <a href = "https://cj-nasa-pod.netlify.com"><img src="/img/nasa.JPG" style="width:100%"></a>
+                <div class="text">This project was so fun AND bonus because I love space! Here, I did another axios call for data and built the app using React. Click the image to view the site. <a href= "https://github.com/CourtneyJa/nasa-photo-of-the-day/pull/1">Click here</a> to view the code.</div>
+            </div> 
+               
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </body>
+</html>
