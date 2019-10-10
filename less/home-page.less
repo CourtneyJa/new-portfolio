@@ -1,0 +1,252 @@
+html{
+    background-color: @prettyblue;
+    
+}
+
+body{
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+}
+
+.home{
+    background-color: @white;
+    width: 90%;
+    border: 20px solid @silver;
+
+
+    .top{
+        width: 100%;        
+
+        .top-stuff{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            background-color: @night;
+            box-shadow: 2px 2px @prettyblue;            
+
+            .me{
+                width: 50%;
+
+                h1{
+                    font-size: 3.5rem;
+                    font-weight: bolder;
+                    width: 100%;
+                    color: @gold;
+                }
+                p{
+                    font-size: 1.8rem;
+                    width: 100%;
+                    color: @white;
+                }
+
+            }
+            
+            #links{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                margin-right: 5%;                     
+                
+                
+                .fun{
+                    margin: 15%;
+                    text-decoration: none;
+                    font-size: 1.2rem;
+                    color: @white;
+                    
+                }
+
+            }
+        }
+        
+    }
+
+    .sidebar{
+        width:30%;
+        
+        img{
+            width: 162px;
+            margin-top: .5%;
+        }
+        .content-btns{
+
+            .link-btn{
+                width: 160px;
+                height: 70px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid rgb(161, 159, 159);
+                text-decoration: none;
+                font-size: 1.5rem;
+                color: @night;
+
+                &:hover {
+                    background-color: @gold;
+                    box-shadow: 2px 2px @prettyblue;
+                }
+
+            }
+        }
+    }
+
+    .intro{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; 
+        position: absolute; 
+        top: 40%;
+        left: 25%;
+        //right: 15%;
+
+        h2{
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           font-size: 2.2rem;
+           padding-bottom: 8%;
+        }
+        p{
+            text-align: center;
+            font-size: 1.2rem;
+            line-height: 125%;
+
+        }
+
+    }
+
+    #footer{
+        p{
+            padding-top: 2%;
+            display: flex;
+            //align-items: center;
+            justify-content: center;
+            font-size: .8rem;
+
+        }
+    }
+
+    .content-header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .meet{
+          font-size: 2.2rem;
+          padding: 3%;
+        }
+        p{
+            font-size: 1.3rem;
+            padding-bottom: 6%;
+        }
+      
+    }
+
+    .skills{
+        width: 45%;
+        border: 2px solid @gold;
+        padding: 1%;
+        padding-bottom: 2%;
+        margin: 2%;
+        
+
+        h4{
+            font-size: 1.5rem;
+            padding-bottom: 4%;
+            
+        }
+        li:before{
+            content: '\0027a2';
+            padding: 1%;
+        }       
+            
+    }
+    .skills-learned{
+        width: 35%;
+        border: 2px solid @gold;
+        padding: 1%;
+        padding-bottom: 1.5%;
+        margin: 2%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column; 
+        position: absolute; 
+        top: 51%;
+        left: 52%;
+          
+        h4{
+            font-size: 1.5rem;
+            padding-bottom: 4%;
+        }
+        li:before{
+            content: '\0027a2';
+            padding: 2%;
+        }
+    }
+    .slaving{
+        padding-left: 2%;
+        padding-bottom: 1.4%;
+
+        h2{
+            padding-left: 18%;
+            font-size: 1.5rem;
+            padding-top: 2%;
+            padding-bottom: 1.2%;         
+        }
+        h4{
+            font-size: 1.2rem;
+            //padding-left: 15%;
+            
+        }
+        
+        
+        
+        h5{
+            font-size: 1.1rem;
+            line-height: 1.5rem;
+            //padding-left: 15%;
+
+        }
+        h6{
+            font-size: 1.1rem;
+            line-height: 1.5rem;
+            padding-bottom: 1%;
+        }
+
+        ul{
+            display: flex;
+            flex-direction: row;
+
+            .lists{
+                width: 50%;
+                li:before{
+                    content: '\0027a2';
+                    padding: 2%;
+                }
+            }
+        }
+
+    }
+
+    .description{
+        h2{
+            font-size: 2rem;
+            padding-top: 7%;
+            //padding-bottom: 2%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        p{
+            padding: 5%;
+            font-size: 1.2rem;
+        }
+    }
+
+    
+}
